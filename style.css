@@ -6,6 +6,11 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     list-style: none;
+
+}
+a{
+    text-decoration: none;
+    color: black;
 }
 .bottom_line{
     color: #FF7500;
@@ -19,10 +24,18 @@
     top: 25px;
     right: 0px;
 }
+i{
+    cursor: pointer;
+}
 li{
     position: relative;
+    cursor: pointer;
+    color: #FF7500;
 }
 
+button{
+    cursor: pointer;
+}
 .tek{
     display: flex;
     justify-content: space-between;
